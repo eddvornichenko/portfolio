@@ -1,0 +1,26 @@
+.logo-text {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 6.4px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 35px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}

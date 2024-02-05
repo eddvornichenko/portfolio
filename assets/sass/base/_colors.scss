@@ -1,0 +1,46 @@
+$bg-color: #ffff;
+$firm-yellow: #fdad57;
+$firm-violet: #312e81;
+$text-title: #202220;
+$text-main: #6b7280;
+$text-hover: $firm-violet;
+$btn-gray: #fbfbfb;
+
+body {
+  width: 100%;
+  background-color: $bg-color;
+  color: $text-main;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $text-title;
+}
+
+p {
+  color: $text-main;
+}
+
+a {
+  color: $text-main;
+  :hover {
+    color: $text-hover;
+  }
+}
+
+button {
+  color: $text-main;
+  background-color: $btn-gray;
+}
+
+.logo-name {
+  color: $firm-yellow;
+}
+
+.logo-second-name {
+  color: $firm-violet;
+}
