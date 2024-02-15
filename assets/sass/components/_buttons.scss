@@ -1,0 +1,18 @@
+@import "../base/colors";
+
+button {
+  padding: 12px 28px;
+  width: 178px;
+  height: 58px;
+  &.primary-btn {
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: $firm-violet;
+  }
+  &.gray-btn {
+    border-radius: 6px;
+    background-color: $btn-gray;
+  }
+  //   &.white-btn {
+  //   }
+}

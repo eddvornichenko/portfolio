@@ -1,6 +1,6 @@
-@use "scss-reset/reset";
-@use "base/typography";
+@use "../../node_modules/scss-reset/reset";
 @use "base/colors";
+@use "base/typography";
 
 @use "components/buttons";
 @use "components/forms";
@@ -8,6 +8,7 @@
 
 @use "layout/grid";
 @use "layout/header";
+@use "layout/hero";
 @use "layout/footer";
 
 @use "pages/home";

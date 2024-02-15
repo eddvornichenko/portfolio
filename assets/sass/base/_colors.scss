@@ -3,7 +3,7 @@ $firm-yellow: #fdad57;
 $firm-violet: #312e81;
 $text-title: #202220;
 $text-main: #6b7280;
-$text-hover: $firm-violet;
+$text-hover: #312e81;
 $btn-gray: #fbfbfb;
 
 body {
@@ -27,9 +27,11 @@ p {
 
 a {
   color: $text-main;
-  :hover {
+  &:hover,
+  &:focus {
     color: $text-hover;
   }
+  transition: color 0.2s ease-in;
 }
 
 button {
