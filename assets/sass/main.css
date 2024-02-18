@@ -657,11 +657,33 @@ h1 {
   color: #202220;
 }
 
+h2 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: #202220;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: #111827;
+}
+
 p {
   font-weight: 400;
   font-size: 20px;
   line-height: 180%;
   color: #6b7280;
+}
+p.skill-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6b7280;
+  margin-top: 8px;
 }
 
 body {
@@ -754,6 +776,7 @@ button.gray-btn {
 
 .hero {
   margin-top: 54px;
+  display: flex;
 }
 
 .hero-title {
@@ -769,4 +792,92 @@ button.gray-btn {
   margin-top: 80px;
   display: flex;
   gap: 25px;
+}
+
+.img-cont {
+  position: relative;
+}
+
+.skills-list {
+  position: absolute;
+}
+
+.skill-item-1 {
+  position: absolute;
+  top: 0;
+}
+
+body {
+  width: 100%;
+  background-color: white;
+  color: #6b7280;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #202220;
+}
+
+p {
+  color: #6b7280;
+}
+
+a {
+  color: #6b7280;
+  transition: color 0.2s ease-in;
+}
+a:hover, a:focus {
+  color: #312e81;
+}
+
+button {
+  color: #6b7280;
+  background-color: #fbfbfb;
+}
+
+.logo-name {
+  color: #fdad57;
+}
+
+.logo-second-name {
+  color: #312e81;
+}
+
+.help-sect {
+  margin-top: 160px;
+}
+.help-sect .skill-desk {
+  margin-top: 20px;
+  width: 718px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 189%;
+}
+
+.skill-box {
+  border: 1px solid #dcdfe5;
+  border-radius: 15px;
+  padding: 25px;
+  width: 560px;
+  display: flex;
+  gap: 16px;
+}
+
+.skill-icon {
+  width: 40px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 80px;
+}
+
+.skill-text {
+  width: 454px;
 }/*# sourceMappingURL=main.css.map */
