@@ -1,5 +1,6 @@
 .hero {
   margin-top: 54px;
+  display: flex;
 }
 
 .hero-title {
@@ -15,4 +16,17 @@
   margin-top: 80px;
   display: flex;
   gap: 25px;
+}
+
+.img-cont {
+  position: relative;
+}
+
+.skills-list {
+  position: absolute;
+}
+
+.skill-item-1 {
+  position: absolute;
+  top: 0;
 }
